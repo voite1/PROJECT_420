@@ -1,0 +1,48 @@
+PART A: (PERT)
+=====================================
+formula: 
+   (Optimistic + 4 x most likely + pessimistic) / 6 = Duration
+
+ANSWER: 
+A = ( 4 + 4*9 + 16 ) / 6 = 9.33
+B = ( 3 + 4*6 + 9  ) / 6 = 6
+C = ( 6 + 4*12 + 24 ) / 6 = 13 
+
+
+
+PART B: (SD and Variance)
+=====================================
+formulas:
+   ( P - O ) / 6 = Task SD
+   Task SD * 2 = Variance
+
+ANSWER:
+A:
+   Task SD = ( 16 - 4 ) / 6 = 2
+   Variance =  2 * 2 = 4
+B:
+   Task SD = ( 9 - 3 ) / 6 = 1
+   Variance = 1 * 2 = 2
+C:
+   Task SD = ( 24 - 6 ) / 6 = 3
+   Variance =  3 * 2 = 6
+
+
+
+PART C:(Project Standard Deviation)
+=====================================
+formula: 
+   sqrt(sum of the task variances) = Project SD
+
+ANSWER:
+   Project SD = sqrt( 4 + 2 + 6 ) = sqrt(12) = 3.46
+
+
+
+PART D: (Probability of completing in 32 days)
+=====================================
+ANSWER:
+   Having Standard Deviation of 3.46 days, the probability
+   of completing project lies within ( 32 / 3.46 ) = 9.24 standard 
+   deviations away from the mean, making the probablity of completing
+   project in 32 day to be less than 0.5%.
